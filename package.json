@@ -1,0 +1,14 @@
+{
+  "name": "speclate-schema",
+  "version": "1.0.0",
+  "description": "Schema for speclate",
+  "main": "schema.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon McManus",
+  "license": "MIT",
+  "dependencies": {
+    "joi": "^10.0.1"
+  }
+}
