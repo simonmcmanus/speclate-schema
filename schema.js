@@ -4,6 +4,7 @@ var Joi = require('joi')
 
 var optionsSchema = Joi.object().keys({
   outputDir: Joi.string().default('/docs').allow(''),
+  debug: Joi.boolean().default(false),
   container: Joi.string().default('#container'),
   files: Joi.array().default([]),
   layout: Joi.string().default('/pages/layout.html'),
