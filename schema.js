@@ -9,7 +9,10 @@ var optionsSchema = Joi.object().keys({
   files: Joi.array().default([]),
   layout: Joi.string().default('/pages/layout.html'),
   appCacheFiles: Joi.array().default([]),
-  scanSpecForFiles: Joi.func().default(function (spec) { return spec })
+  scanSpecForFiles: Joi.func().default(function (spec) { return spec }),
+  validators: Joi.object().keys({
+      w3c: Joi.string().default('false')
+  })
 })
 
 var specSchema = Joi.object().keys({
