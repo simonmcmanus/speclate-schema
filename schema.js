@@ -13,6 +13,9 @@ var specSchema = Joi.object().keys({
     scanSpecForFiles: Joi.func().default(function (spec) { return spec }),
     validate: Joi.object().keys({
         w3c: Joi.string().valid(['error', 'warn', 'ignore']).default('warn')
+    }),
+    build: Joi.object().default().keys({
+        css: Joi.valid(['scss-global', false]).default(false) // css pre-processor support.
     })
   }),
   defaultSpec: Joi.object()
