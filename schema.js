@@ -5,6 +5,7 @@ var Joi = require('joi')
 var specSchema = Joi.object().keys({
   options: Joi.object().keys({
     outputDir: Joi.string().default('/docs').allow(''),
+    domain: Joi.string(),
     debug: Joi.boolean().default(false),
     container: Joi.string().default('#container'),
     files: Joi.array().default([]),
