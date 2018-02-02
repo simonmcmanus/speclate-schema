@@ -9,6 +9,6 @@
   "author": "Simon McManus",
   "license": "MIT",
   "dependencies": {
-    "joi": "^10.0.1"
+    "joi": "^13.1.1"
   }
 }
