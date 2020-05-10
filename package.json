@@ -1,8 +1,9 @@
 {
   "name": "speclate-schema",
   "version": "1.3.0",
+  "module": "esm/schema.js",
   "description": "Schema for speclate",
-  "main": "schema.js",
+  "main": "cjs/schema.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
