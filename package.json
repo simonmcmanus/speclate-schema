@@ -11,5 +11,8 @@
   "license": "MIT",
   "dependencies": {
     "joi": "^10.0.1"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
   }
 }
