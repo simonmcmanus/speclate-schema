@@ -1,6 +1,6 @@
 {
   "name": "speclate-schema",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "module": "esm/schema.js",
   "description": "Schema for speclate",
   "main": "./cjs/schema.js",
