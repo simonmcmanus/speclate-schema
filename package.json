@@ -1,11 +1,15 @@
 {
   "name": "speclate-schema",
   "version": "2.0.2",
-  "module": "esm/schema.js",
   "description": "Schema for speclate",
   "main": "./cjs/schema.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js  && node test.mjs"
+  },
+  "exports": {
+    "import": "./esm/schema.js",
+    "default": "./cjs/schema.js"
   },
   "author": "Simon McManus",
   "license": "MIT",

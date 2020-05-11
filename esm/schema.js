@@ -1,4 +1,5 @@
-var Joi = require('joi')
+
+import Joi from 'joi'
 
 var optionsSchema = Joi.object().keys({
   outputDir: Joi.string().default('/docs'),

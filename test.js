@@ -1,4 +1,4 @@
-import { validate } from './esm/schema.js'
+var { validate  } = require('./cjs/schema.js')
 
 
 
